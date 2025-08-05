@@ -1,7 +1,8 @@
 <div align="center">
 
-# Machine Coding Series 
-## 01:  Todo List App
+# 01:  Todo List App
+## Machine Coding Series 
+
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -27,15 +28,9 @@ A simple, interactive todo list application built with vanilla JavaScript. This 
 - ⚡ **Real-time Updates** - Instant task management without page refresh
 - 📱 **Event Delegation** - Efficient event handling for dynamic content
 
-## Demo & Live Links
+## 🌐 Live Demo
+[View Live Demo](https://todo-list-app-neeraj05042001s-projects.vercel.app/)
 
-### 📹 Demo Video
-[Watch Demo Video](your-demo-video-link-here)
-*Replace with your actual demo video link*
-
-### 🌐 Live Demo
-[View Live Demo](your-live-demo-link-here)
-*Replace with your actual live demo link*
 
 ## Important Concepts Used
 
