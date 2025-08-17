@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.accordian {
+  border: 1px solid black;
+  width: 50%;
+}
+
+.accordian-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordian-header {
+  background-color: #f5f5f5;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.accordian-content {
+  padding: 10px;
+  display: none;
+}

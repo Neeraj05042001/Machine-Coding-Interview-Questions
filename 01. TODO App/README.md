@@ -1,8 +1,8 @@
 <div align="center">
 
-# 01:  Todo List App
-## Machine Coding Series 
+# 01: Todo List App
 
+## Machine Coding Series
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -17,6 +17,18 @@
 
 </div>
 
+### 🎯Goal:
+
+> Design a Todo list web application using vanilla Javascript.
+
+The application should allow users to:
+Requirements:
+
+- Functionality: Adding, editing and deleting tasks.
+  -User Interface: Intuitive and easy to use.
+- Error handling: Errors should be handled effectively.
+- Code quality: Well- structured, readable and organized.
+
 A simple, interactive todo list application built with vanilla JavaScript. This app allows users to add, edit, and delete tasks with an intuitive user interface. Perfect for learning fundamental JavaScript concepts and DOM manipulation techniques.
 
 ## Features
@@ -29,14 +41,15 @@ A simple, interactive todo list application built with vanilla JavaScript. This 
 - 📱 **Event Delegation** - Efficient event handling for dynamic content
 
 ## 🌐 Live Demo
-[View Live Demo](https://todo-list-app-neeraj05042001s-projects.vercel.app/)
 
+[View Live Demo](https://todo-list-app-neeraj05042001s-projects.vercel.app/)
 
 ## Important Concepts Used
 
 ### 🎯 Core JavaScript Concepts
 
 **1. DOM Manipulation**
+
 - `document.querySelector()` - Selecting elements
 - `document.createElement()` - Creating new elements
 - `appendChild()` - Adding elements to DOM
@@ -44,28 +57,33 @@ A simple, interactive todo list application built with vanilla JavaScript. This 
 - `innerHTML` and `textContent` - Updating element content
 
 **2. Event Handling**
+
 - `addEventListener()` - Attaching event listeners
 - `preventDefault()` - Preventing default form submission
 - **Event Delegation** - Single listener for multiple dynamic elements
 - Event object (`event.target`) - Identifying clicked elements
 
 **3. State Management**
+
 - Boolean flags (`editMode`) for application state
 - Object references (`editItem`) for tracking elements
 - Conditional logic for different modes
 
 **4. Form Handling**
+
 - Form submission events
 - Input validation with `.trim()`
 - Dynamic form behavior (changing button text)
 
 **5. String Methods**
+
 - `.trim()` - Removing whitespace
 - Template literals for dynamic content
 
 ### 🔧 Advanced Techniques
 
 **Event Delegation Pattern**
+
 ```javascript
 // Instead of adding listeners to each button
 todoList.addEventListener("click", (event) => {
@@ -76,6 +94,7 @@ todoList.addEventListener("click", (event) => {
 ```
 
 **State-Based UI Updates**
+
 ```javascript
 if (editMode) {
   todoSubmit.innerText = "Edit Todo";
@@ -89,21 +108,25 @@ if (editMode) {
 ### 🚀 Quick Setup Checklist
 
 **Step 1: HTML Structure**
+
 - [ ] Create form with `.todo-form` class
 - [ ] Add input with `.todo-input` class
 - [ ] Add submit button with `.todo-submit` class
 - [ ] Create empty ul with `.todo-list` class
 
 **Step 2: JavaScript Variables**
+
 - [ ] Declare `editMode = false`
 - [ ] Declare `editItem = null`
 - [ ] Get all DOM element references
 
 **Step 3: Event Listeners**
+
 - [ ] Form submit listener (add/edit logic)
 - [ ] Click delegation listener on todo list
 
 **Step 4: Core Functions**
+
 - [ ] `addTodoItem()` function
 - [ ] Edit mode logic
 - [ ] Delete functionality
@@ -112,6 +135,7 @@ if (editMode) {
 ### 🎯 Key Implementation Points
 
 **Form Submission Logic:**
+
 ```javascript
 if (editMode) {
   // Update existing item
@@ -124,6 +148,7 @@ if (editMode) {
 ```
 
 **Button Click Handling:**
+
 ```javascript
 if (target.innerText === "❌") {
   todoItem.remove();
