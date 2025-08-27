@@ -17,7 +17,7 @@
 
 </div>
 
-> *Created by: Neeraj | [LinkedIn: neeraj-kumar1904](https://linkedin.com/in/neeraj-kumar1904) 💼 | [X: @_19_neeraj](https://x.com/_19_neeraj) 🐦 | [GitHub: Neeraj05042001](https://github.com/Neeraj05042001) 🐙* |
+> _Created by: Neeraj | [LinkedIn: neeraj-kumar1904](https://linkedin.com/in/neeraj-kumar1904) 💼 | [X: @\_19_neeraj](https://x.com/_19_neeraj) 🐦 | [GitHub: Neeraj05042001](https://github.com/Neeraj05042001) 🐙_ |
 
 ## 🎯Goal:
 
@@ -33,6 +33,8 @@ Requirements:
 
 ---
 
+![Pagination Demo](./pagination.png)
+
 ## ✅Implementation👇👇
 
 This project implements a **Pagination system** in vanilla JavaScript.
@@ -46,6 +48,10 @@ This problem is commonly asked in **machine coding interviews** to test knowledg
 - Rendering UI dynamically
 
 ---
+
+## 🌐 Live Demo
+
+👉 [View Demo Here](https://pagination-eight-gamma.vercel.app/)
 
 ## 🚀 Features
 
@@ -92,6 +98,7 @@ No external frameworks/libraries used.
 ---
 
 ## 📸 Example UI
+![Pagination Demo](./pagination.png)
 
 ## 🎯 Interview Pointers
 
@@ -108,5 +115,3 @@ No external frameworks/libraries used.
 ---
 
 ✅ This project demonstrates **pagination implementation from scratch**—a must-know for frontend interviews.
-
-
